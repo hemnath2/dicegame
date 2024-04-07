@@ -1,0 +1,141 @@
+.header{
+     display: flex;
+     flex-direction: row; 
+     gap: 50%; 
+
+}
+
+
+.score{
+    margin: -2.6% 10.5%;
+}
+
+ #one{
+    font-size: 632%;
+    FONT-WEIGHT: 500;
+    margin-left: 2%;
+    margin-bottom: 0%;
+}
+
+#two{
+    font-size: 150%;
+    font-weight: 500;
+    margin-top: -2.2%;
+    margin-left: -2%;
+    position: absolute;
+}
+
+
+#three{
+    color: red;
+    font-size: 166%;
+    margin-left: -68%;
+}
+
+.btn{
+    margin-left: -101%;
+    margin-top: -6%;
+}
+
+.number button{
+    /* background: white;
+    border: 1px solid black;
+    width: 10%;
+    margin: 0% 1%;
+    height: 67px;
+    margin-left: 3%; */
+    background: white;
+    border-bottom: 2px solid black;
+    width: 10.3%;
+    margin: 0% 1%;
+    height: 72px;
+    margin-left: 18px;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+#four{
+    margin-top: 9%;
+    margin-left: 11%;
+    font-size: 148%;
+    font-weight: 700;
+}
+
+.middle img{
+    height: 250px;
+}
+
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:2%;
+    margin-left: 0.8%;
+}
+
+
+.middle p{
+    font-size: 24px;
+    margin-top: 0.9%;
+    font-weight: 500;
+}
+
+
+.middle .btn-1{
+    background: #fff;
+    border: 1px solid #000;
+    height: 44px;
+    width: 14%;
+    border-radius: 4px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.middle .btn-2{
+    background: #000;
+    border: 1px solid #000;
+    height: 44px;
+    width: 14%;
+    border-radius: 4px;
+    margin-top: 27px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+
+.Bottom {
+    background: #FBF1F1;
+    margin-bottom: 30%;
+    margin-top: 4%;
+    margin-left: 25%;
+    width: 53%;
+    padding: 0px 0px;
+    height: 208px;
+}
+
+.Bottom h1{
+    font-size: 150%;
+    padding: 2.4% 3.2%;
+    margin-bottom: -1.4%;
+}
+
+.Bottom p{
+    padding: 0% 3%;
+    font-weight: 560;
+    margin-bottom: -12px;
+}
+
+button{
+ cursor: pointer;;
+}
+
+
+.btn :hover{
+  color: #fff;
+  background-color: #000;
+}
